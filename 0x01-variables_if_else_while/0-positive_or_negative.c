@@ -5,7 +5,9 @@
 /**
  * main - task #0
  *
- * return: 0
+ * Description: 0-positive_or_negative.c
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
