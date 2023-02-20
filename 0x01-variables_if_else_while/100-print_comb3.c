@@ -14,7 +14,7 @@ int main(void)
 	{
 		if (i <= 9)
 		{
-			putchar ("%02d", i);
+			putchar (i);
 		}
 		i++;
 		putchar (i);
