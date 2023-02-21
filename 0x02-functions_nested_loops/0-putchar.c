@@ -1,20 +1,15 @@
 #include "main.h"
 
 /**
- * main - Write a program that prints _putchar
+ * _putchar - Write a program that prints _putchar
+ *
+ *@c: 0-putchar.c
+ *
  * Return: 0
  */
-
-int main(void)
+int _putchar(char c)
 {
-	_putchar (_);
-	_putchar(p);
-	_putchar(u);
-	_putchar(t);
-	_putchar(c);
-	_putchar(h);
-	_putchar(a);
-	_putchar(r);
-
+	_putchar ('_putchar');
+	_putchar ('\n');
 	return (0);
 }
