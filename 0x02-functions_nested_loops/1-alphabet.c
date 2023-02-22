@@ -2,8 +2,8 @@
 
 /**
  * print_alphabet - Write a function that prints the alphabet
- *
- * Return: Always 0
+ * Description : 1-alphabet.c
+ * Return: void
  */
 
 void print_alphabet(void)
