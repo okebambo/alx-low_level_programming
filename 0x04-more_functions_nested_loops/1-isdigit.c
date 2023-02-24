@@ -10,17 +10,8 @@
 
 int _isdigit(int c)
 {
-	int i;
-
-	for (i = 0; i <= 9; i++)
-	{
-		if (c == i)
-		{
-			return (1);
-		}
-		else
-		{
-			return (0);
-		}
-	}
+	if (c >= 0 && c <= 9)
+		return (1);
+	else
+		return (0);
 }
