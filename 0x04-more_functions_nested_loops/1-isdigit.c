@@ -10,9 +10,9 @@
 
 int _isdigit(int c)
 {
-	int i = 0;
+	int i;
 
-	while (i <= 9)
+	for (i = 0; i <= 9; i++)
 	{
 		if (c == i)
 		{
@@ -23,5 +23,4 @@ int _isdigit(int c)
 			return (0);
 		}
 	}
-	i++;
 }
